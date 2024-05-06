@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="SeekBarTheme">
+        <item name="colorControlNormal">#FF4081</item> <!-- Change the color of the SeekBar thumb -->
+        <item name="colorControlActivated">#FF4081</item> <!-- Change the color of the SeekBar progress -->
+    </style>
+</resources>

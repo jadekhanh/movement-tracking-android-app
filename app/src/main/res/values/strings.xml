@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="time_units">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+    </string-array>
+
+    <string-array name="distance_units">
+        <item>Meters</item>
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item>Feet</item>
+    </string-array>
+
+    <string-array name="speed_units">
+        <item>Meters/Second</item>
+        <item>Kilometers/Hour</item>
+        <item>Miles/Hour</item>
+        <item>Minutes/Mile</item>
+    </string-array>
+
+</resources>

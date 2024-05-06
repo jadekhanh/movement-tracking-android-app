@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/highestSpeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Speed: "
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/lowestSpeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lowest Speed: "
+        android:layout_below="@id/highestSpeedTextView"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/highestAltitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Altitude: "
+        android:layout_below="@id/lowestSpeedTextView"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/lowestAltitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lowest Altitude: "
+        android:layout_below="@id/highestAltitudeTextView"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/highestDistanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Distance: "
+        android:layout_below="@id/lowestAltitudeTextView"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/lowestDistanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lowest Distance: "
+        android:layout_below="@id/highestDistanceTextView"
+        android:layout_marginStart="16dp"/>
+</RelativeLayout>
